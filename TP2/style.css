@@ -50,6 +50,12 @@ form div{
     text-align: center;
 }
 
+h1{
+    content: url(img/logo-iut.jpg)
+    width: 300px;
+    margin: auto;
+}
+
 @media screen and (min-width: 740px){
     form{
         width: 30%;
