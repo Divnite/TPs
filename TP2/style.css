@@ -1,0 +1,57 @@
+body{
+    width: 80%;
+    margin: auto;
+}
+header{
+    border: 2px solid black;
+    text-align: center; 
+}
+
+footer{
+    border: 2px solid black;
+    text-align: center;
+}
+
+.paragraph1{
+    background-color: blue;
+}
+
+.paragraph2{
+    background-color: white;
+}
+
+.paragraph3{
+    background-color: red;
+}
+
+.paragraph3 img{
+    margin-left: 8%;
+    width: 85%;
+    margin-bottom: 5%;
+}
+
+form{
+    border:2px solid black;
+    height: auto;
+    width: 100%;
+    line-height: 30px;
+    margin: auto;
+    margin: 25px auto 25px;
+}
+
+form div{
+    display: inline-block
+}
+
+.titre{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (min-width: 740px){
+    form{
+        width: 30%;
+    }
+}
