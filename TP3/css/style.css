@@ -86,20 +86,6 @@ p{
     }
     }
 
-    @media screen and (max-width: 768px){
-        body{
-            margin: 25px;
-        }
-
-        #image{
-            width: 40%;
-            height: 40%;
-            display: inline-block;
-            margin-right: auto;
-            margin-bottom: 100px;
-        }
-    }
-
 #icone{
     width: 150px;
     display: block;
@@ -110,4 +96,31 @@ p{
 
 header{
     background-color: lightblue;
+}
+
+@media screen and (max-width: 768px){
+  body{
+      width: 100%;
+      margin: 0px;
+  }
+
+  #image{
+      width: 40%;
+      height: 40%;
+      display: inline-block;
+      margin-right: auto;
+      margin-bottom: 30px;
+  }
+
+  #map{
+    margin-left: 12%;
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 425px){
+  body{
+    margin: 0px;
+  }
+
 }
