@@ -81,6 +81,12 @@ header{
     background-color: lightblue;
 }
 
+form{
+  width: 80%;
+  display: block;
+  margin: 10px;
+}
+
 @media screen and (max-width: 600px) {
   .topnav .search-container {
     float: none;
@@ -127,5 +133,4 @@ header{
     width: 80%;
   }
 
-  
 }
